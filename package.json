@@ -1,0 +1,28 @@
+{
+  "name": "curriculum-vitae",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "analyze": "npx hackmyresume analyze resume.json",
+    "start": "resume serve -t ./node_modules/jsonresume-theme-macchiato",
+    "postinstall": "patch-package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidmartinez10/curriculum-vitae.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidmartinez10/curriculum-vitae/issues"
+  },
+  "homepage": "https://github.com/davidmartinez10/curriculum-vitae#readme",
+  "dependencies": {
+    "hackmyresume": "^1.9.0-beta",
+    "jsonresume-theme-macchiato": "^1.1.0",
+    "patch-package": "^6.5.1",
+    "resume-cli": "^3.0.8"
+  }
+}

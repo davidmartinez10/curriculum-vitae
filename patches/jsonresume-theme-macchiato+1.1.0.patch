@@ -1,0 +1,58 @@
+diff --git a/node_modules/jsonresume-theme-macchiato/src/partials/projects.hbs b/node_modules/jsonresume-theme-macchiato/src/partials/projects.hbs
+index 20b68b7..536ca4b 100644
+--- a/node_modules/jsonresume-theme-macchiato/src/partials/projects.hbs
++++ b/node_modules/jsonresume-theme-macchiato/src/partials/projects.hbs
+@@ -1,6 +1,6 @@
+ {{#if resume.projects.length}}
+ <div class="container project-container">
+-    {{> title value="Open Source Projects"}}
++    {{> title value="Projects"}}
+ 
+     {{#each resume.projects}}
+         <section class="item">
+diff --git a/node_modules/jsonresume-theme-macchiato/src/partials/summary.hbs b/node_modules/jsonresume-theme-macchiato/src/partials/summary.hbs
+index ada0985..5a025ea 100644
+--- a/node_modules/jsonresume-theme-macchiato/src/partials/summary.hbs
++++ b/node_modules/jsonresume-theme-macchiato/src/partials/summary.hbs
+@@ -2,7 +2,7 @@
+     {{#if summary}}
+         <div class="container summary-container">
+             {{> title value="Summary"}}
+-            <p class="summary">
++            <p class="summary" style="white-space: inherit;">
+                 {{summary}}
+             </p>
+         </div>
+diff --git a/node_modules/jsonresume-theme-macchiato/src/style.css b/node_modules/jsonresume-theme-macchiato/src/style.css
+index db9f392..0fb99b0 100644
+--- a/node_modules/jsonresume-theme-macchiato/src/style.css
++++ b/node_modules/jsonresume-theme-macchiato/src/style.css
+@@ -152,6 +152,10 @@ li {
+   font-size: 11px;
+ }
+ 
++p {
++  white-space: pre-line;
++}
++
+ blockquote {
+   font-size: 11px;
+   font-family: "Lato", Helvetica, Arial, sans-serif;
+@@ -268,7 +272,7 @@ ul.two-column li {
+ 
+ .left-column {
+   float: left;
+-  width: 160px;
++  width: 162px;
+   margin-right: 20px;
+   word-wrap: break-word;
+ }
+@@ -357,7 +361,7 @@ ul.two-column li {
+   text-transform: none;
+   display: inline-block;
+   vertical-align: middle;
+-  width: 139px;
++  width: 140px;
+ }
+ 
+ .references-container .fa {

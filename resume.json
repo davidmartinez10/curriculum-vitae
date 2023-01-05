@@ -1,0 +1,409 @@
+{
+  "basics": {
+    "name": "David E. Martínez",
+    "label": "Computer Programmer",
+    "email": "david.mardav@gmail.com",
+    "summary": "Self-taught programmer with a lifelong passion for technology. I learned to program in C at the age of 12 and have since developed a diverse skill set that includes expertise in JavaScript, TypeScript, Node.js, React, Solid.js, Electron, NW.js, AWS, MongoDB, Redis, and PouchDB. I have experience developing and maintaining microservices, building reactive applications, and releasing multiple open-source projects. With over 6 years of experience in JavaScript and 5 years of experience in Node.js and TypeScript, I am adept at troubleshooting and problem-solving and have proven my ability to design and maintain computer programs and backend systems. Seeking a challenging role where I can apply my skills and continue to grow as a programmer.",
+    "location": {
+      "city": "Buenos Aires, Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "david-e-martinez",
+        "url": "https://www.linkedin.com/in/david-e-martinez/"
+      },
+      {
+        "network": "Github",
+        "username": "davidmartinez10",
+        "url": "https://github.com/davidmartinez10"
+      }
+    ],
+    "picture": "https://1.gravatar.com/avatar/50ac1ba872aafef68838c9fa7be32989"
+  },
+  "work": [
+    {
+      "position": "Computer Programmer",
+      "startDate": "2022-02",
+      "highlights": [],
+      "keywords": ["TypeScript", "NW.js", "PouchDB", "CouchDB", "Solid", "Xel"],
+      "summary": "Working on a couple of commercial closed-source applications based on the NW.js runtime, the Solid reactive JavaScript UI library and PouchDB."
+    },
+    {
+      "company": "Blocksize",
+      "position": "Computer Programmer",
+      "startDate": "2021-08",
+      "endDate": "2022-02",
+      "highlights": [],
+      "keywords": [
+        "TypeScript",
+        "Node.js",
+        "React",
+        "Electron",
+        "Firebase",
+        "Mobx",
+        "cryptocurrency",
+        "Ethereum"
+      ],
+      "summary": "· Mantaining and improving a multi-cryptocurrency wallet with an integrated P2P exchange order book, which was a realtime Electron application made with React, Typescript, Firebase and Mobx.\n· Writing code to interact with smart contracts on the Ethereum blockchain and/or the Binance Smart Chain."
+    },
+    {
+      "company": "Pinny App",
+      "position": "Computer Programmer",
+      "startDate": "2020-05",
+      "endDate": "2020-11",
+      "highlights": [],
+      "keywords": ["JavaScript", "Node.js", "React", "React Native"],
+      "summary": "· Developed a React Native application.\n· Maintained Node.js microservices.\n· Developed a React.js back office application.",
+      "url": "https://www.linkedin.com/company/pinny-app/"
+    },
+    {
+      "company": "Blocksize",
+      "position": "Computer Programmer",
+      "startDate": "2019-05",
+      "endDate": "2020-02",
+      "highlights": [],
+      "keywords": [
+        "Node.js",
+        "React",
+        "TypeScript",
+        "Electron",
+        "Firebase",
+        "Mobx",
+        "D3.js",
+        "Cryptocurrency"
+      ],
+      "summary": "· Maintained and improved a multi-cryptocurrency wallet with an integrated P2P exchange order book. The application was a real-time Electron application built with React, TypeScript, Firebase, and Mobx.\n· Implemented a technical analysis chart for the order book using D3.js."
+    },
+    {
+      "company": "True North",
+      "position": "Sr. Software Engineer",
+      "startDate": "2018-11",
+      "endDate": "2019-05",
+      "highlights": [],
+      "keywords": ["JavaScript", "Node.js", "Apigee", "Auth0", "PostgreSQL"],
+      "summary": "· Maintained multiple microservices written in Node.js.\n· Conducted research and developed proof of concept for integrating Auth0 and Apigee with the application.",
+      "url": "https://www.linkedin.com/company/truenorthtech/"
+    },
+    {
+      "company": "HUMBER",
+      "position": "Computer Programmer",
+      "startDate": "2018-03",
+      "endDate": "2018-11",
+      "highlights": [],
+      "keywords": [
+        "JavaScript",
+        "Node.js",
+        "React",
+        "Express",
+        "Swagger",
+        "MongoDB",
+        "Redis",
+        "Socket.io",
+        "Angularjs",
+        "Amazon Web Services",
+        "Nginx"
+      ],
+      "summary": "· Maintained and improved a Loopback backend, eventually replacing it with a newly programmed Node.js backend made with Express and Swagger.\n· Developed a customer service chat applet using Socket.io to improve communication between staff and clients.\n· Improved performance by replacing a questionable MongoDB geotracking workflow with a Redis geospatial cache, reducing the DB size from 30GB to 450MB, thus making it far more viable to have daily backups and proper clustering. That single collection abused of many unnecessary indexes to make it work, with the side effect of very frequently bursting into peaks of CPU and RAM usage that freezed the entire EC2 VM instance.\n· Set up a MongoDB replica set for redundancy and uptime. The offending collection was no more, but even if it was, with this the DB wouldn't be able to crash the rest of the system in the future.\n· Replaced a slow Angularjs back office application with a new one written in React from scratch.",
+      "url": "https://www.linkedin.com/company/humber/",
+      "location": "Buenos Aires"
+    },
+    {
+      "company": "Drogueria Farmasun",
+      "position": "Computer Programmer",
+      "startDate": "2017-12",
+      "endDate": "2018-08",
+      "highlights": [],
+      "keywords": [
+        "JavaScript",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Angularjs",
+        "Swagger",
+        "Redis"
+      ],
+      "summary": "Worked as a Computer Programmer at Farmasun, where I was responsible for the maintenance of the company's Angularjs back office application and Node.js backend.",
+      "url": "https://www.linkedin.com/company/drogueriafarmasun/"
+    },
+    {
+      "company": "CIOM",
+      "position": "Computer Programmer",
+      "startDate": "2017-06",
+      "endDate": "2017-11",
+      "keywords": ["JavaScript", "Node.js", "MongoDB", "Redis"],
+      "summary": "· Refactored the Node.js backend of the company's system.\n· Created server endpoints for various functions.\n· Developed frontend views using React.",
+      "url": "https://www.linkedin.com/company/circle-complete-group/",
+      "location": "Buenos Aires",
+      "website": "https://home.ciom.tech/"
+    },
+    {
+      "company": "EducacionIT",
+      "position": "Computer Science Teacher",
+      "startDate": "2017-04",
+      "endDate": "2017-10",
+      "highlights": [],
+      "keywords": [
+        "JavaScript",
+        "Node.js",
+        "MongoDB",
+        "ES6",
+        "Concurrent Programming",
+        "RESTful Web Services",
+        "Swagger",
+        "Socket.io"
+      ],
+      "summary": "· Taught courses on backend web development and database management using Node.js and MongoDB.\nCovered topics such as Socket.IO, ES6, concurrent programming, and RESTful web services.\n· Introduced students to open-API (Swagger) and RESTful services.\n· Led discussions on asynchronous programming.",
+      "url": "https://www.linkedin.com/school/educacionit/",
+      "location": "Buenos Aires"
+    },
+    {
+      "company": "Ninety.io",
+      "position": "Computer Programmer",
+      "startDate": "2017-04",
+      "endDate": "2017-06",
+      "highlights": [],
+      "keywords": [
+        "JavaScript",
+        "Node.js",
+        "Dialogflow",
+        "Amazon Web Services",
+        "Twilio",
+        "Slack",
+        "Redis"
+      ],
+      "summary": "· Developed a Node.js webhook that integrated a Dialogflow natural language chatbot into the platform, allowing users to manage their company's teams via Twilio SMS and Slack as an alternative to the web dashboard.\n· Utilized Redis and AWS to support the chatbot's functionality.\n· Worked with artificial intelligence techniques to improve the chatbot's language processing capabilities.",
+      "url": "https://www.linkedin.com/company/ninety-io/"
+    },
+    {
+      "company": "TuSegurodeViaje.NET",
+      "position": "Computer Programmer",
+      "startDate": "2016-08",
+      "endDate": "2017-02",
+      "highlights": [],
+      "keywords": [
+        "JavaScript",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "Microsoft SQL Server",
+        "Angularjs",
+        "Swagger",
+        "Redis"
+      ],
+      "summary": "· Development of scripts to automate database migration from Microsoft SQL Server to MongoDB.\n· Creation of a Node.js server (using Express.js) with a public API documented by a Swagger specification to replace the old ASP.NET backend.\n· Implementation of an Angularjs back office application.",
+      "url": "https://www.linkedin.com/company/tu-seguro-de-viaje-net/"
+    },
+    {
+      "company": "Appen",
+      "position": "Social Media Annotator - Facebook SRT",
+      "startDate": "2016-07",
+      "endDate": "2016-08",
+      "highlights": [],
+      "summary": "· Review and evaluate social media content.\n· Annotate and categorize content according to guidelines.\n· Provide feedback to improve content relevance and accuracy.\n· Understand how social media platforms display content.",
+      "url": "https://www.linkedin.com/company/appen/"
+    },
+    {
+      "company": "Appen",
+      "position": "Freelance Translator",
+      "startDate": "2016-02",
+      "endDate": "2016-08",
+      "highlights": [],
+      "summary": "· Translate a variety of written materials from one language to another.\n· Ensure translations are accurate and idiomatic.\n· Proofread and edit translations for quality.\n· Stay up to date with translation techniques and technologies.",
+      "url": "https://www.linkedin.com/company/appen/"
+    },
+    {
+      "company": "Lionbridge",
+      "position": "Internet Assesor",
+      "startDate": "2012-04",
+      "endDate": "2012-10",
+      "highlights": [],
+      "summary": "· Evaluating the quality and relevance of online search results.\n· Using a set of guidelines to determine whether websites and other online content meet certain quality standards.\n· Providing feedback and recommendations to improve the relevance and accuracy of search results.\n· Working with a variety of search engines, such as Google, Bing, and Yahoo.\n· Understanding how search engines rank and display search results.",
+      "url": "https://www.linkedin.com/company/lionbridge/"
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Fundación Proydesa",
+      "area": "· LAN/WAN Telecommunications & Administration",
+      "studyType": "Cisco Certified Network Associate (CCNA)",
+      "startDate": "2016-01",
+      "endDate": "2017-06"
+    },
+    {
+      "institution": "EducacionIT",
+      "area": "Node.js & MongoDB",
+      "startDate": "2016-12",
+      "endDate": "2017-02"
+    },
+    {
+      "institution": "EducacionIT",
+      "area": "ReactJS",
+      "startDate": "2017-01",
+      "endDate": "2017-03"
+    },
+    {
+      "institution": "EducacionIT",
+      "area": "Advanced Node.js Architecture",
+      "startDate": "2017-01",
+      "endDate": "2017-03"
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["TypeScript", "JavaScript", "C", "HTML", "CSS"]
+    },
+    {
+      "name": "Runtime Environments",
+      "keywords": [
+        "Node.js",
+        "NW.js",
+        "Deno",
+        "Electron",
+        "Firefox",
+        "Webkit-based Browsers",
+        "Chromium-based Browsers"
+      ]
+    },
+    {
+      "name": "Databases",
+      "keywords": [
+        "MongoDB",
+        "Redis",
+        "CouchDB",
+        "Firebase",
+        "SQL Server",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "keywords": [
+        "Express",
+        "React",
+        "Solid",
+        "PouchDB",
+        "Xel",
+        "BigFloat",
+        "React Native",
+        "Gatsby",
+        "JSDoc",
+        "Open API",
+        "Mobx",
+        "Material UI"
+      ]
+    },
+    {
+      "name": "Tools",
+      "keywords": [
+        "Git",
+        "VS Code",
+        "Browser DevTools",
+        "IDE Debuggers",
+        "Nginx",
+        "Module Bundlers",
+        "Babel",
+        "ESLint",
+        "Clang-format",
+        "Prettier",
+        "Unix",
+        "MacOS",
+        "Windows",
+        "Linux",
+        "Inkscape"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "fluency": "Native Speaker",
+      "language": "Spanish"
+    },
+    {
+      "fluency": "Bilingual",
+      "language": "English"
+    },
+    {
+      "fluency": "Basic",
+      "language": "Italian"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "NW.ts-Tools",
+      "startDate": "2022-10",
+      "summary": "A toolkit for running, compiling, patching, and packaging NW.js apps. Features include the ability to replace the FFmpeg library originally included with NW.js, download a fresh copy of NW.js and package it alongside a built application, and compile JavaScript files into .bin files for source code protection. Also includes typed exports from Node.js built-in modules.",
+      "url": "https://www.npmjs.com/package/nwts-tools",
+      "endDate": "2022-10",
+      "keywords": ["NW.js", "TypeScript", "Code Protection"]
+    },
+    {
+      "name": "Quorum Space Recorder",
+      "startDate": "2022-02",
+      "summary": "Desktop application that allows to simultaneously capture Twitter Spaces conversations and save them to disk or broadcast them as live streams to YouTube, Twitch and other services.",
+      "endDate": "2022-02",
+      "keywords": [
+        "NW.js",
+        "TypeScript",
+        "Solid",
+        "PouchDB",
+        "Twitter",
+        "Twitter Spaces",
+        "YouTube",
+        "Twitch"
+      ]
+    },
+    {
+      "name": "Bigfloat",
+      "startDate": "2019-03",
+      "summary": "A library for arbitrary precision decimal floating point arithmetic, allowing exact representation of all decimal fractions. This implementation is built using ES native bigints and offers a functional style approach with a set of functions, a BigFloat class with an API similar to Decimal.js, and an evaluate() function for parsing and resolving expressions. Bigfloat is useful for improving the precision of arithmetic operations in applications where precise decimal representation is important.",
+      "url": "https://www.npmjs.com/package/bigfloat-esnext",
+      "endDate": "2019-03",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "Bigfloat",
+        "Bigint",
+        "Decimal",
+        "Arbitrary Precision"
+      ]
+    },
+    {
+      "name": "Bigfloat for Deno",
+      "startDate": "2019-10",
+      "summary": "Deno port of the Bigfloat library.",
+      "url": "https://github.com/davidmartinez10/bigfloat-deno",
+      "endDate": "2019-10",
+      "keywords": [
+        "Deno",
+        "JavaScript",
+        "TypeScript",
+        "Bigfloat",
+        "Bigint",
+        "Decimal",
+        "Arbitrary Precision"
+      ]
+    },
+    {
+      "name": "use-pouchdb-collection",
+      "startDate": "2022-04",
+      "summary": "Developed a React hook that automatically subscribes to changes in a PouchDB collection and triggers re-renders, making it suitable for real-time or offline-first applications utilizing the CouchDB replication protocol.",
+      "url": "https://www.npmjs.com/package/use-pouchdb-collection",
+      "endDate": "2022-04",
+      "keywords": [
+        "React",
+        "PouchDB",
+        "CouchDB",
+        "React Hook",
+        "Reactive Programming"
+      ]
+    }
+  ],
+  "certificates": []
+}
