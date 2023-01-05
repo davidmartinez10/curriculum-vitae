@@ -109,7 +109,7 @@
       "location": "Buenos Aires"
     },
     {
-      "company": "Drogueria Farmasun",
+      "company": "Droguería Farmasun",
       "position": "Computer Programmer",
       "startDate": "2017-12",
       "endDate": "2018-08",
@@ -138,7 +138,7 @@
       "website": "https://home.ciom.tech/"
     },
     {
-      "company": "EducacionIT",
+      "company": "EducaciónIT",
       "position": "Computer Science Teacher",
       "startDate": "2017-04",
       "endDate": "2017-10",
@@ -200,6 +200,12 @@
       "startDate": "2016-07",
       "endDate": "2016-08",
       "highlights": [],
+      "keywords": [
+        "Social Media",
+        "Content Moderation",
+        "Machine Learning",
+        "Search Engine Optimization"
+      ],
       "summary": "· Review and evaluate social media content.\n· Annotate and categorize content according to guidelines.\n· Provide feedback to improve content relevance and accuracy.\n· Understand how social media platforms display content.",
       "url": "https://www.linkedin.com/company/appen/"
     },
@@ -209,6 +215,7 @@
       "startDate": "2016-02",
       "endDate": "2016-08",
       "highlights": [],
+      "keywords": ["Translation", "Machine Learning"],
       "summary": "· Translate a variety of written materials from one language to another.\n· Ensure translations are accurate and idiomatic.\n· Proofread and edit translations for quality.\n· Stay up to date with translation techniques and technologies.",
       "url": "https://www.linkedin.com/company/appen/"
     },
@@ -218,6 +225,11 @@
       "startDate": "2012-04",
       "endDate": "2012-10",
       "highlights": [],
+      "keywords": [
+        "Search Engine Optimization",
+        "Machine Learning",
+        "Search Engine Results"
+      ],
       "summary": "· Evaluating the quality and relevance of online search results.\n· Using a set of guidelines to determine whether websites and other online content meet certain quality standards.\n· Providing feedback and recommendations to improve the relevance and accuracy of search results.\n· Working with a variety of search engines, such as Google, Bing, and Yahoo.\n· Understanding how search engines rank and display search results.",
       "url": "https://www.linkedin.com/company/lionbridge/"
     }
@@ -232,19 +244,19 @@
       "endDate": "2017-06"
     },
     {
-      "institution": "EducacionIT",
+      "institution": "EducaciónIT",
       "area": "Node.js & MongoDB",
       "startDate": "2016-12",
       "endDate": "2017-02"
     },
     {
-      "institution": "EducacionIT",
+      "institution": "EducaciónIT",
       "area": "ReactJS",
       "startDate": "2017-01",
       "endDate": "2017-03"
     },
     {
-      "institution": "EducacionIT",
+      "institution": "EducaciónIT",
       "area": "Advanced Node.js Architecture",
       "startDate": "2017-01",
       "endDate": "2017-03"
@@ -275,8 +287,9 @@
         "MongoDB",
         "Redis",
         "CouchDB",
+        "IndexedDB",
         "Firebase",
-        "SQL Server",
+        "SQLite",
         "PostgreSQL"
       ]
     },
@@ -310,11 +323,7 @@
         "ESLint",
         "Clang-format",
         "Prettier",
-        "Unix",
-        "MacOS",
-        "Windows",
-        "Linux",
-        "Inkscape"
+        "Unix"
       ]
     }
   ],
@@ -341,7 +350,12 @@
       "summary": "A toolkit for running, compiling, patching, and packaging NW.js apps. Features include the ability to replace the FFmpeg library originally included with NW.js, download a fresh copy of NW.js and package it alongside a built application, and compile JavaScript files into .bin files for source code protection. Also includes typed exports from Node.js built-in modules.",
       "url": "https://www.npmjs.com/package/nwts-tools",
       "endDate": "2022-10",
-      "keywords": ["NW.js", "TypeScript", "Code Protection"]
+      "keywords": [
+        "NW.js",
+        "TypeScript",
+        "Code Protection",
+        "Application Packaging"
+      ]
     },
     {
       "name": "Quorum Space Recorder",
@@ -356,7 +370,8 @@
         "Twitter",
         "Twitter Spaces",
         "YouTube",
-        "Twitch"
+        "Twitch",
+        "Live Streaming"
       ]
     },
     {
