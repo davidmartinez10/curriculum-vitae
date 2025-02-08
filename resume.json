@@ -32,7 +32,8 @@
         "PouchDB",
         "CouchDB",
         "Solid",
-        "Xel"
+        "Xel",
+        "FFmpeg"
       ],
       "summary": "Working on a couple of commercial closed-source applications based on the NW.js runtime, the Solid reactive JavaScript UI library, and PouchDB."
     },
@@ -337,7 +338,6 @@
         "Xel",
         "BigFloat",
         "React Native",
-        "Gatsby",
         "JSDoc",
         "Open API",
         "Mobx",
@@ -349,15 +349,23 @@
       "keywords": [
         "Git",
         "VSCode",
-        "Browser DevTools",
-        "IDE Debuggers",
+        "DevTools",
+        "Debuggers",
         "Nginx",
         "Module Bundlers",
-        "Babel",
         "ESLint",
         "Clang-format",
         "Prettier",
-        "Unix"
+        "Unix",
+        "Linux",
+        "SSH",
+        "Tmux",
+        "AWS",
+        "ZFS",
+        "Solaris Zones",
+        "Linux Containers",
+        "Virtual Machines",
+        "FFmpeg"
       ]
     }
   ],

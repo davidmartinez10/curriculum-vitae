@@ -1,6 +1,6 @@
 diff --git a/node_modules/jsonresume-theme-macchiato/.DS_Store b/node_modules/jsonresume-theme-macchiato/.DS_Store
 new file mode 100644
-index 0000000..63b0365
+index 0000000..64b15b0
 Binary files /dev/null and b/node_modules/jsonresume-theme-macchiato/.DS_Store differ
 diff --git a/node_modules/jsonresume-theme-macchiato/src/partials/projects.hbs b/node_modules/jsonresume-theme-macchiato/src/partials/projects.hbs
 index 20b68b7..536ca4b 100644
@@ -28,7 +28,7 @@ index ada0985..e08e069 100644
              </p>
          </div>
 diff --git a/node_modules/jsonresume-theme-macchiato/src/style.css b/node_modules/jsonresume-theme-macchiato/src/style.css
-index db9f392..573cdc8 100644
+index db9f392..9de6b42 100644
 --- a/node_modules/jsonresume-theme-macchiato/src/style.css
 +++ b/node_modules/jsonresume-theme-macchiato/src/style.css
 @@ -7,56 +7,64 @@
@@ -274,8 +274,9 @@ index db9f392..573cdc8 100644
  .skill {
 -  margin: .15em;
 -  padding: .15em;
+-  background: ghostwhite;
 +  margin: 0.15em;
 +  padding: 0.15em;
-   background: ghostwhite;
++  background: antiquewhite;
    border-radius: 5px;
  }
