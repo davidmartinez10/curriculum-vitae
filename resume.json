@@ -51,12 +51,11 @@
       "keywords": [
         "TypeScript",
         "React Native",
-        "OpenMaps",
-        "Mapbox",
+        "MapLibre",
         "Expo Router",
         "TanStack Query"
       ],
-      "summary": "Developed a React Native application. Implemented map features using OpenMaps and Mapbox. Managed server state with TanStack Query. Used Expo Router for navigation and routing.",
+      "summary": "Developed a React Native application. Implemented map features using MapLibre. Managed server state with TanStack Query. Used Expo Router for navigation and routing.",
       "url": "https://www.linkedin.com/company/oxitesa/"
     },
     {
@@ -458,10 +457,10 @@
   ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
+      "name": "EF SET English Certificate 71/100 (C2 Proficient)",
+      "date": "2025-03-12",
+      "issuer": "EF SET",
+      "url": "https://cert.efset.org/yuqnMo"
     }
   ]
 }

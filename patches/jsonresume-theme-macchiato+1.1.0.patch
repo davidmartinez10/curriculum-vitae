@@ -1,8 +1,40 @@
 diff --git a/node_modules/jsonresume-theme-macchiato/.DS_Store b/node_modules/jsonresume-theme-macchiato/.DS_Store
 new file mode 100644
 index 0000000..e69de29
+diff --git a/node_modules/jsonresume-theme-macchiato/src/partials/certificates.hbs b/node_modules/jsonresume-theme-macchiato/src/partials/certificates.hbs
+new file mode 100644
+index 0000000..cf7a179
+--- /dev/null
++++ b/node_modules/jsonresume-theme-macchiato/src/partials/certificates.hbs
+@@ -0,0 +1,13 @@
++{{#if resume.certificates.length}}
++<div class="container certificates-container">
++    {{> title value="Certificates"}}
++
++    {{#each resume.certificates}}
++        <section class="item">
++            {{> section-header name=this.issuer }}
++            <h5 class="name">{{name}}</h5>
++            <a href={{url}}><h5>Show credential 🔗</h5></a>
++        </section>
++    {{/each}}
++</div>
++{{/if}}
+\ No newline at end of file
+diff --git a/node_modules/jsonresume-theme-macchiato/src/resume.hbs b/node_modules/jsonresume-theme-macchiato/src/resume.hbs
+index f163a53..7877027 100644
+--- a/node_modules/jsonresume-theme-macchiato/src/resume.hbs
++++ b/node_modules/jsonresume-theme-macchiato/src/resume.hbs
+@@ -23,6 +23,7 @@
+         {{> summary}}
+         {{> work }}
+         {{> projects }}
++        {{> certificates }}
+         {{> education }}
+         {{> volunteer }}
+         {{> awards }}
 diff --git a/node_modules/jsonresume-theme-macchiato/src/style.css b/node_modules/jsonresume-theme-macchiato/src/style.css
-index db9f392..9de6b42 100644
+index db9f392..52434f9 100644
 --- a/node_modules/jsonresume-theme-macchiato/src/style.css
 +++ b/node_modules/jsonresume-theme-macchiato/src/style.css
 @@ -7,56 +7,64 @@
@@ -234,7 +266,7 @@ index db9f392..9de6b42 100644
  }
  
  .info-tag-container .fa {
-@@ -357,7 +370,6 @@ ul.two-column li {
+@@ -357,13 +370,17 @@ ul.two-column li {
    text-transform: none;
    display: inline-block;
    vertical-align: middle;
@@ -242,7 +274,18 @@ index db9f392..9de6b42 100644
  }
  
  .references-container .fa {
-@@ -385,8 +397,8 @@ ul.two-column li {
+   font-size: 14px;
+ }
+ 
++.certificates-container .location {
++  padding-bottom: 6px;
++  font-weight: 400;
++}
++
+ .education-container .location {
+   padding-bottom: 6px;
+   font-weight: 400;
+@@ -385,8 +402,8 @@ ul.two-column li {
  }
  
  .skill {
